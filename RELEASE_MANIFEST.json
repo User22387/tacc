@@ -1,0 +1,21 @@
+{
+  "artifact": "TACC for LagerNVS",
+  "release_format": 1,
+  "scope": "inference-only",
+  "anonymous": true,
+  "base_repository": "https://github.com/facebookresearch/lagernvs",
+  "base_commit": "35e81bed35672309e458fa5d1f33787ac7b187e2",
+  "checkpoint": {
+    "path": "checkpoints/tacc_lagernvs_v3.pt",
+    "parameters": 302785,
+    "bytes": 1215835
+  },
+  "validated_protocol": {
+    "backbone": "LagerNVS DL3DV posed 256px",
+    "source_views": [60, 80, 100, 120],
+    "equivalent_budget_views": 10,
+    "tokens_per_view": 1369,
+    "moment_distance_weight": 0.1,
+    "residual_temperature": 0.8
+  }
+}

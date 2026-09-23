@@ -1,0 +1,13 @@
+{
+  "backbone": "LagerNVS DL3DV posed 256px",
+  "grid_size": 37,
+  "tokens_per_view": 1369,
+  "token_dim": 768,
+  "carrier_hidden_dim": 192,
+  "moment_distance_weight": 0.1,
+  "residual_temperature": 0.8,
+  "default_equivalent_views": 10,
+  "validated_source_views": [60, 80, 100, 120],
+  "target_batch_size": 4,
+  "checkpoint": "checkpoints/tacc_lagernvs_v3.pt"
+}
